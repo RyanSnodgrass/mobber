@@ -1,15 +1,39 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: gray;
+  font-family: sans-serif;
+  height: 100%;
+}
 
-.body {
+.nav-bar { 
+	background-size: 100%;
+	background: url("images/nav-bar-gradient.png") repeat-x top;
+}
+ul {
+	display: inline;
+	color: white;
+	min-height: 20px;
+	position: absolute;
+}
+li{
+	display: inline;
+	color: white;
+	min-height: 20px;
+	position: relative;
 	
 }
-
-.nav-bar {
-	height: 60px;
-	width: 100%;
-	background-color: black;
+p {
+	position: absolute;
+	display: inline;
+	color: white;
 }
-
-.logo {
-	background-color: black;
-	/*background-img: src=("/images/hat-logo.png");*/
+.inside {
+  width: 960px;
+  margin: 0 auto;
+  border: dotted red;
+}
+.hat-logo {
+	display: inline;
+	margin: 10px 0 10px;
 }
