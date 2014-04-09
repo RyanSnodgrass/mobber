@@ -1,0 +1,15 @@
+
+.body {
+	
+}
+
+.nav-bar {
+	height: 60px;
+	width: 100%;
+	background-color: black;
+}
+
+.logo {
+	background-color: black;
+	/*background-img: src=("/images/hat-logo.png");*/
+}
