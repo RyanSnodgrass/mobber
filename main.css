@@ -1,27 +1,51 @@
 html, body {
   margin: 0;
   padding: 0;
-  background: gray;
+  background: lightgray;
   font-family: sans-serif;
   height: 100%;
 }
 
 .nav-bar { 
+	margin: 0;
+	padding: 0;
+	max-height: 60px;
 	background-size: 100%;
-	background: url("images/nav-bar-gradient.png") repeat-x top;
+	background: url("images/nav-bar-gradient2.png") repeat-x top;
+}
+.spread-bar {
+	margin: 0;
+	padding: 0;
+	height: 60px;
+	background-color: white;
+	font-color: black;
 }
 ul {
 	display: inline;
 	color: white;
-	min-height: 20px;
+
 	position: absolute;
+	
+	left: 200px;
+	font-family: 'Didact Gothic', sans-serif;
 }
 li{
 	display: inline;
 	color: white;
-	min-height: 20px;
-	position: relative;
+
+	margin: 12px;
+  text-shadow: 2px 2px 2px 2px #000;
+	/*position: absolute;*/
 	
+}
+.igor {
+	/*height: 56px;*/
+margin: 0;
+padding: 0;
+	position: absolute;
+	right: 100px;
+	top: -4px;
+
 }
 p {
 	position: absolute;
@@ -29,10 +53,12 @@ p {
 	color: white;
 }
 .inside {
-  width: 960px;
+  width: 940px;
   margin: 0 auto;
-  border: dotted red;
+  /*border: dotted red;*/
+  position: relative;
 }
+
 .hat-logo {
 	display: inline;
 	margin: 10px 0 10px;
